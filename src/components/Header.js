@@ -8,7 +8,7 @@ function Header(props) {
     return (
         <div className= "header">
            <IconButton>
-            <PersonIcon fontSize="large" className="header_icon"/>
+            <PersonIcon fontSize="large" className="header__icon"/>
            </IconButton>
 
            <img
@@ -17,7 +17,9 @@ function Header(props) {
                alt=""
             />
 
+            <IconButton>
             <ForumIcon />
+            </IconButton>
         </div>
     );
 }
