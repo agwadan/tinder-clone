@@ -27,7 +27,7 @@ mongoose.connect(uri, {
 const connection = mongoose.connection;
 console.log("Mongoose... Connection successfully established.");
 
-//api endpoints
+//__________api endpoints
 app.get('/', (req, res) => {
   res.status(200).send('App Running Successfully')
 })
