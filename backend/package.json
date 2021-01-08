@@ -4,6 +4,7 @@
   "description": "Server side for tinder clone.",
   "main": "server.js",
   "type": "module",
+  "build" : "webpack",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
